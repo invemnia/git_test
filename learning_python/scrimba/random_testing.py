@@ -14,6 +14,9 @@
 # price = value_added_tax(100)    
 # print(price, type(price))
 
+
+
+
 # #------------------------------LOOPS---------------------------------
 # print("1.*Loops are great*")
 # print("2.**Loops are great**")
@@ -31,17 +34,16 @@
 # for index in range(len(friends)):
 #     print(friends[index])
 
-# print("For Loop done!")
+# # print("For Loop done!")
 
 
-
-is_raining = True
-is_cold = False
-print("Good Morning!")
-if is_raining and is_cold: 
-    print("Bring umbrella and jacket!")
-elif is_raining and not(is_cold):
-    print("Bring umbrella!")
+# is_raining = True
+# is_cold = False
+# print("Good Morning!")
+# if is_raining and is_cold: 
+#     print("Bring umbrella and jacket!")
+# elif is_raining and not(is_cold):
+#     print("Bring umbrella!")
 
 
 
@@ -57,3 +59,14 @@ elif is_raining and not(is_cold):
 # print(movie)
 # test_list = movie[2]
 # print(type(test_list))
+
+# #------------------------LIST COMPREHENSION---------------------
+
+
+new_list = []
+for num in range(5):
+    new_list.append(num*num)
+print(new_list)
+
+comp_list = [num*num for num in range(5) if num[4] == 16]
+print(comp_list)
