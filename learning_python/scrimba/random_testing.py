@@ -27,8 +27,33 @@
 #     print(f"{i}."+ "*"*i + "Loops are awesome" + "*"*i)
     
 
-friends = ['John','Terry','Eric','Michael','George']
-for index in range(len(friends)):
-    print(friends[index])
+# friends = ['John','Terry','Eric','Michael','George']
+# for index in range(len(friends)):
+#     print(friends[index])
 
-print("For Loop done!")
+# print("For Loop done!")
+
+
+
+is_raining = True
+is_cold = False
+print("Good Morning!")
+if is_raining and is_cold: 
+    print("Bring umbrella and jacket!")
+elif is_raining and not(is_cold):
+    print("Bring umbrella!")
+
+
+
+# #------------------------------DICTIONARIES---------------------------------
+
+
+# movie = {
+#     'title' : 'Life of Brian',
+#     'year' : 1979,
+#     'cast' : ['John','Eric','Michael','George','Terry']
+# }
+
+# print(movie)
+# test_list = movie[2]
+# print(type(test_list))
