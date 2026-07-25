@@ -59,10 +59,14 @@
  
 
 ##------------------------------Q-14---------------------------------##
-numbers = [1, 2, 3]
-
-
-for n in numbers:
-    n = n * 10
-
+numbers = [-3, 8, 68, 10, 14, -9, 3, -17, -7, 14, 1, -1, -12, -6, 32]
+for num in numbers: 
+    if num < 0:
+        num = num - 1
+        numbers.append(num)
 print(numbers)
+
+
+
+
+    

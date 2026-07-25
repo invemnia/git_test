@@ -6,10 +6,39 @@
 
 # ------------------------------LISTS----------------------------
 
+# people = ["Peter Scully","Bob","Joe","Joe", "Richard Huckle"]
+# people.append("Mark")
+# people[-1] = ("Actual Mark")
 
-lists = [1,3,4,5]
-print(lists[3])
+# people.insert(0, "The Got")
+# people[0] = "The Goat" #my bad
+# print(people)
+# print('--------')
+# print(people.index("Joe"))
+# print(people.count('Joe'))
+# print('--------')
+# people.remove("Joe") #one joe gone
+# print(people)
+# print('--------')
 
+
+# print(people.pop(-3))
+# print(people)
+
+
+# msg ='Welcome to Python 101: Split and Join'
+# csv = 'Eric,John,Michael,Terry,Graham'
+# more_friends = ['Joe', 'Videsh']
+# friends_list = ['Eric','John','Michael','Terry','Graham']
+
+# # print(csv.split(","))
+
+# long_string = '-nigga-'.join(friends_list + more_friends)
+# print(long_string)
+# print(type(long_string))
+# print('\n')
+
+# print(long_string.split('-nigga-'))
 
 
 # #------------------------------FUNCTIONS---------------------------------
@@ -79,6 +108,9 @@ print(lists[3])
 
 # #------------------------------DICTIONARIES---------------------------------
 
+#Calcutating marks for the lab01 to see if I have to do questions 19-25
+
+
 
 # movie = {
 #     'title' : 'Life of Brian',
@@ -126,3 +158,37 @@ print(lists[3])
 
 # comp_list = [num*num for num in range(5) if num[4] == 16]
 # print(comp_list)
+
+# #------------------------BASICS-NO-THEME---------------------
+# marks = (10 * 0.1) + (0.5 * 4) + (4 * 1) 
+# print(float(marks))
+
+            # making a function for even or odd
+
+# def iseven(n):
+#     if n % 2 == 0:
+#         print("Even")
+#     else:
+#         print('odd')
+
+# iseven(12341234)
+
+#without printing in function
+
+def main():
+    number = int(input('Number: '))
+    if iseven(number):
+        print("Even")
+    else: 
+        print("odd")
+
+def iseven(n):
+    return True if n % n == 0 else False
+
+    #orrr
+    # if n % 2 == 0:
+    #     return True
+    # else:   
+    #     return False
+
+main()
