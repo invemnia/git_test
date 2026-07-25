@@ -4,6 +4,14 @@
 # print(pedofiles.intersection(names))
 
 
+# ------------------------------LISTS----------------------------
+
+
+lists = [1,3,4,5]
+print(lists[3])
+
+
+
 # #------------------------------FUNCTIONS---------------------------------
 
 # def value_added_tax(amount):
@@ -14,6 +22,28 @@
 # price = value_added_tax(100)    
 # print(price, type(price))
 
+
+
+# def hello(name="nigga"):
+#     print("hello",name)
+    
+
+# username = input("> ")
+# hello(username)
+
+# for i in range(3):
+#     hello(username)
+
+# def area(length, width):
+#     print(str(length * width) + " square feet")
+
+
+# def main():
+#     other_area = area(10,10)
+#     area(50, 20)
+
+
+# main()
 
 
 
@@ -71,18 +101,18 @@
 #     print(character, characters[character], sep="->")
 
 
-students = [
-    {"name": "Hermione", "house": "Gryffindor", "patronus": "Otter"},
-    {"name": "Harry", "house": "Gryffindor", "patronus": "Stag"},
-    {"name": "Ron", "house": "Gryffindor", "patronus": "Jack Russell terrier"},
-    {"name": "Draco", "house": "Slytherin", "patronus": None},
-]
+# students = [
+#     {"name": "Hermione", "house": "Gryffindor", "patronus": "Otter"},
+#     {"name": "Harry", "house": "Gryffindor", "patronus": "Stag"},
+#     {"name": "Ron", "house": "Gryffindor", "patronus": "Jack Russell terrier"},
+#     {"name": "Draco", "house": "Slytherin", "patronus": None},
+# ]
 
 
 
 
-for student in students:
-    print(student['name'], student['house'], sep="__")
+# for student in students:
+#     print(student['name'], student['house'], sep="__")
 
 # print(students[3]["name"])
 
