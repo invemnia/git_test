@@ -141,12 +141,23 @@
 # ]
 
 
-
-
 # for student in students:
 #     print(student['name'], student['house'], sep="__")
 
 # print(students[3]["name"])
+
+# #-----#
+# data = [
+#     ("a", 1), ("b", 1), ("b", 1),
+#     ("c", 1), ("c", 1), ("c", 1),
+# ]
+# print(type(data))
+
+# result = dict(data)
+# print(type(result))
+# print(result)
+
+
 
 # #------------------------LIST COMPREHENSION---------------------
 
@@ -173,22 +184,35 @@
 
 # iseven(12341234)
 
-#without printing in function
+# #without printing in function
 
-def main():
-    number = int(input('Number: '))
-    if iseven(number):
-        print("Even")
-    else: 
-        print("odd")
+# def main():
+#     number = int(input('Number: '))
+#     if iseven(number):
+#         print("Even")
+#     else: 
+#         print("odd")
 
-def iseven(n):
-    return True if n % n == 0 else False
+# def iseven(n):
+#     return True if n % n == 0 else False
 
     #orrr
     # if n % 2 == 0:
     #     return True
     # else:   
     #     return False
+# main()
 
-main()
+
+#---Checking if I can count b properly and store all the b's in a list. You' can't iterate over a single int
+empty_b = []
+counter = 0
+
+for a in "I'm a big boy":
+    if a == "b":
+        empty_b.append(a)
+        counter += 1 
+
+print(empty_b)
+print(counter)
+print(len("abbbbcb"))
