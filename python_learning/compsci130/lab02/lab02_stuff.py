@@ -1,7 +1,17 @@
-def greet(name):
-    message = "Hello " + name
-    return message
+#-__-_______-------_______-----__Claude learning_--__---------__-___--___-___---_--_
+# def say_bye():
+#     print("bye")
 
-result = greet("Alice")
-print(result)
-print(message)
+# say_bye()
+
+
+#### experimenting with claude answers
+
+#q9
+def read_file(filename):
+    result = []
+    file = open(filename, "r")
+    for line in file:
+        result.append(line.strip())   # .strip() removes the \n at the end
+    file.close()
+    return result
